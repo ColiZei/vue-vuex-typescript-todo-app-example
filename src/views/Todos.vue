@@ -4,6 +4,21 @@
   </h1>
   <todo-create></todo-create>
   <todo-list></todo-list>
+  <div class="text-center">
+    <a
+      href="https://github.com/ColiZei/vue-vuex-typescript-todo-app-example"
+      target="_blank"
+    >
+      View source code on GitHub!
+      <img
+        class="mx-auto"
+        src="../assets/Octocat.png"
+        alt="GitHub - Octocat"
+        width="128"
+        height="128"
+      />
+    </a>
+  </div>
 </template>
 
 <script lang="ts">
