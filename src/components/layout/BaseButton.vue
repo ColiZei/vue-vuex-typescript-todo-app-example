@@ -2,10 +2,10 @@
   <button
     :disabled="disabled"
     :class="{
-      'bg-green-500': color === 'green',
-      'active:green-600': color === 'green',
-      'bg-red-500': color === 'red',
-      'active:red-600': color === 'red',
+      'bg-green-500': color === 'green' && !disabled,
+      'active:green-600': color === 'green' && !disabled,
+      'bg-red-500': color === 'red' && !disabled,
+      'active:red-600': color === 'red' && !disabled,
       'bg-gray-400': disabled,
     }"
     class="
