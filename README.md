@@ -1,24 +1,5 @@
 # vue-vuex-typescript-todo-app-example
 
-## Project setup
-```
-npm install
-```
+A simple Todo App that uses Vue, Vuex and Typescript
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Demo Github Pages](https://colizei.github.io/vue-vuex-typescript-todo-app-example/).
