@@ -2,8 +2,10 @@
   <button
     :disabled="disabled"
     :class="{
-      [bgColorNotDisabled]: !disabled,
-      [bgColorActive]: !disabled,
+      'bg-green-500': color === 'green',
+      'active:green-600': color === 'green',
+      'bg-red-500': color === 'red',
+      'active:red-600': color === 'red',
       'bg-gray-400': disabled,
     }"
     class="
